@@ -1,2 +1,1 @@
-# python3.6-webapp
-first commit
+# python3 练习
