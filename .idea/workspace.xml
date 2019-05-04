@@ -21,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="use_slots.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="use_slots.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/oop_advance/use_slots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8018868">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="use_property.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/oop_advance/use_property.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7075472">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -83,6 +93,7 @@
         <option value="$PROJECT_DIR$/samples/oop_basic/attrs.py" />
         <option value="$PROJECT_DIR$/samples/oop_basic/get_instance.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/use_slots.py" />
+        <option value="$PROJECT_DIR$/samples/oop_advance/use_property.py" />
       </list>
     </option>
   </component>
@@ -178,24 +189,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/WWW/mytest/github/learn-python3/samples/oop_basic/get_type.py" />
   </component>
-  <component name="RunManager" selected="Python.use_slots">
-    <configuration default="false" name="animals" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/oop_basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/oop_basic/animals.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.use_property">
     <configuration default="false" name="get_type" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,6 +254,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/oop_advance/use_slots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="use_property" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/oop_advance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/oop_advance/use_property.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -387,19 +398,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.animals" />
-      <item index="1" class="java.lang.String" itemvalue="Python.get_type" />
-      <item index="2" class="java.lang.String" itemvalue="Python.attrs" />
-      <item index="3" class="java.lang.String" itemvalue="Python.get_instance" />
-      <item index="4" class="java.lang.String" itemvalue="Python.use_slots" />
+      <item index="0" class="java.lang.String" itemvalue="Python.get_type" />
+      <item index="1" class="java.lang.String" itemvalue="Python.attrs" />
+      <item index="2" class="java.lang.String" itemvalue="Python.get_instance" />
+      <item index="3" class="java.lang.String" itemvalue="Python.use_slots" />
+      <item index="4" class="java.lang.String" itemvalue="Python.use_property" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.use_slots" />
-        <item index="1" class="java.lang.String" itemvalue="Python.get_instance" />
-        <item index="2" class="java.lang.String" itemvalue="Python.attrs" />
-        <item index="3" class="java.lang.String" itemvalue="Python.get_type" />
-        <item index="4" class="java.lang.String" itemvalue="Python.animals" />
+        <item index="0" class="java.lang.String" itemvalue="Python.use_property" />
+        <item index="1" class="java.lang.String" itemvalue="Python.use_slots" />
+        <item index="2" class="java.lang.String" itemvalue="Python.get_instance" />
+        <item index="3" class="java.lang.String" itemvalue="Python.attrs" />
+        <item index="4" class="java.lang.String" itemvalue="Python.get_type" />
       </list>
     </recent_temporary>
   </component>
@@ -769,8 +780,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/oop_advance/use_slots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8018868">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/oop_advance/use_property.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7075472">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding />
         </state>
       </provider>
