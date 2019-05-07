@@ -31,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="use_collections.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="use_collections.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/commonlib/use_collections.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7169811">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="do_base64.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/commonlib/do_base64.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5188679">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/oop_basic/protected_student.py" />
         <option value="$PROJECT_DIR$/samples/oop_basic/animals.py" />
         <option value="$PROJECT_DIR$/samples/oop_basic/get_type.py" />
         <option value="$PROJECT_DIR$/samples/oop_basic/attrs.py" />
@@ -107,6 +116,7 @@
         <option value="$PROJECT_DIR$/samples/regex/regex.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/use_datetime.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/use_collections.py" />
+        <option value="$PROJECT_DIR$/samples/commonlib/do_base64.py" />
       </list>
     </option>
   </component>
@@ -202,24 +212,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/WWW/mytest/github/learn-python3/samples/oop_basic/get_type.py" />
   </component>
-  <component name="RunManager" selected="Python.use_collections">
-    <configuration default="false" name="task_master_w" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/multitask" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/multitask/task_master_w.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.do_base64">
     <configuration default="false" name="task_worker_w" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,6 +277,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_collections.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="do_base64" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/commonlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/do_base64.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -429,19 +439,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.mydicts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.task_master_w" />
-      <item index="2" class="java.lang.String" itemvalue="Python.task_worker_w" />
-      <item index="3" class="java.lang.String" itemvalue="Python.regex" />
-      <item index="4" class="java.lang.String" itemvalue="Python.use_datetime" />
-      <item index="5" class="java.lang.String" itemvalue="Python.use_collections" />
+      <item index="1" class="java.lang.String" itemvalue="Python.task_worker_w" />
+      <item index="2" class="java.lang.String" itemvalue="Python.regex" />
+      <item index="3" class="java.lang.String" itemvalue="Python.use_datetime" />
+      <item index="4" class="java.lang.String" itemvalue="Python.use_collections" />
+      <item index="5" class="java.lang.String" itemvalue="Python.do_base64" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.use_collections" />
-        <item index="1" class="java.lang.String" itemvalue="Python.use_datetime" />
-        <item index="2" class="java.lang.String" itemvalue="Python.regex" />
-        <item index="3" class="java.lang.String" itemvalue="Python.task_worker_w" />
-        <item index="4" class="java.lang.String" itemvalue="Python.task_master_w" />
+        <item index="0" class="java.lang.String" itemvalue="Python.do_base64" />
+        <item index="1" class="java.lang.String" itemvalue="Python.use_collections" />
+        <item index="2" class="java.lang.String" itemvalue="Python.use_datetime" />
+        <item index="3" class="java.lang.String" itemvalue="Python.regex" />
+        <item index="4" class="java.lang.String" itemvalue="Python.task_worker_w" />
       </list>
     </recent_temporary>
   </component>
@@ -518,13 +528,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/oop_basic/get_type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/oop_basic/attrs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -835,9 +838,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29245284">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -845,9 +846,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.235849">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +855,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -889,8 +888,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/commonlib/use_collections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7169811">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/commonlib/do_base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5188679">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
