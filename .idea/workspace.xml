@@ -21,26 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task_worker_w.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/multitask/task_worker_w.py">
+      <file leaf-file-name="regex.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/regex/regex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_master_w.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/samples/multitask/task_master_w.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.2735849">
-              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.5660377">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/functional/do_partial.py" />
         <option value="$PROJECT_DIR$/samples/module/hello.py" />
         <option value="$PROJECT_DIR$/samples/oop_basic/student.py" />
         <option value="$PROJECT_DIR$/samples/oop_basic/protected_student.py" />
@@ -111,12 +96,13 @@
         <option value="$PROJECT_DIR$/samples/multitask/task_master.py" />
         <option value="$PROJECT_DIR$/samples/multitask/task_worker_w.py" />
         <option value="$PROJECT_DIR$/samples/multitask/task_master_w.py" />
+        <option value="$PROJECT_DIR$/samples/regex/regex.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="618" />
-    <option name="y" value="23" />
+    <option name="x" value="604" />
+    <option name="y" value="62" />
     <option name="width" value="1197" />
     <option name="height" value="1038" />
   </component>
@@ -176,6 +162,10 @@
               <option name="myItemId" value="samples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -190,10 +180,6 @@
               <option name="myItemId" value="samples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multitask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -206,24 +192,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/WWW/mytest/github/learn-python3/samples/oop_basic/get_type.py" />
   </component>
-  <component name="RunManager" selected="Python.task_worker_w">
-    <configuration default="false" name="use_threadlocal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/multitask" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/multitask/use_threadlocal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.regex">
     <configuration default="false" name="task_master" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,6 +257,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/multitask/task_worker_w.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="regex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/regex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/regex/regex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -433,19 +419,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.mydicts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.use_threadlocal" />
-      <item index="2" class="java.lang.String" itemvalue="Python.task_master" />
-      <item index="3" class="java.lang.String" itemvalue="Python.task_worker" />
-      <item index="4" class="java.lang.String" itemvalue="Python.task_master_w" />
-      <item index="5" class="java.lang.String" itemvalue="Python.task_worker_w" />
+      <item index="1" class="java.lang.String" itemvalue="Python.task_master" />
+      <item index="2" class="java.lang.String" itemvalue="Python.task_worker" />
+      <item index="3" class="java.lang.String" itemvalue="Python.task_master_w" />
+      <item index="4" class="java.lang.String" itemvalue="Python.task_worker_w" />
+      <item index="5" class="java.lang.String" itemvalue="Python.regex" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.task_worker_w" />
-        <item index="1" class="java.lang.String" itemvalue="Python.task_master_w" />
-        <item index="2" class="java.lang.String" itemvalue="Python.task_worker" />
-        <item index="3" class="java.lang.String" itemvalue="Python.task_master" />
-        <item index="4" class="java.lang.String" itemvalue="Python.use_threadlocal" />
+        <item index="0" class="java.lang.String" itemvalue="Python.regex" />
+        <item index="1" class="java.lang.String" itemvalue="Python.task_worker_w" />
+        <item index="2" class="java.lang.String" itemvalue="Python.task_master_w" />
+        <item index="3" class="java.lang.String" itemvalue="Python.task_worker" />
+        <item index="4" class="java.lang.String" itemvalue="Python.task_master" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +478,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="618" y="23" width="1197" height="1038" extended-state="0" />
+    <frame x="604" y="62" width="1197" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1976251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -522,13 +508,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/oop_basic/student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/oop_basic/protected_student.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -893,6 +872,14 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/regex/regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5660377">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
