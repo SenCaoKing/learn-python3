@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="use_contextlib.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/samples/commonlib/use_contextlib.py">
+      <file leaf-file-name="use_urllib.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/commonlib/use_urllib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7075472">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.7169811">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -46,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/oop_advance/use_property.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/special_str.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/special_iter.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/special_getitem.py" />
@@ -97,12 +96,13 @@
         <option value="$PROJECT_DIR$/samples/commonlib/use_itertools.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/use_chainmap.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/use_contextlib.py" />
+        <option value="$PROJECT_DIR$/samples/commonlib/use_urllib.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="759" />
-    <option name="y" value="12" />
+    <option name="x" value="687" />
+    <option name="y" value="11" />
     <option name="width" value="1197" />
     <option name="height" value="1038" />
   </component>
@@ -192,24 +192,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/WWW/mytest/github/learn-python3/samples/oop_basic/get_type.py" />
   </component>
-  <component name="RunManager" selected="Python.use_contextlib">
-    <configuration default="false" name="check_bmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/commonlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/check_bmp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.use_urllib">
     <configuration default="false" name="use_hashlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,6 +257,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_contextlib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="use_urllib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/commonlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_urllib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -419,19 +419,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.mydicts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.check_bmp" />
-      <item index="2" class="java.lang.String" itemvalue="Python.use_hashlib" />
-      <item index="3" class="java.lang.String" itemvalue="Python.use_itertools" />
-      <item index="4" class="java.lang.String" itemvalue="Python.use_chainmap" />
-      <item index="5" class="java.lang.String" itemvalue="Python.use_contextlib" />
+      <item index="1" class="java.lang.String" itemvalue="Python.use_hashlib" />
+      <item index="2" class="java.lang.String" itemvalue="Python.use_itertools" />
+      <item index="3" class="java.lang.String" itemvalue="Python.use_chainmap" />
+      <item index="4" class="java.lang.String" itemvalue="Python.use_contextlib" />
+      <item index="5" class="java.lang.String" itemvalue="Python.use_urllib" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.use_contextlib" />
-        <item index="1" class="java.lang.String" itemvalue="Python.use_chainmap" />
-        <item index="2" class="java.lang.String" itemvalue="Python.use_itertools" />
-        <item index="3" class="java.lang.String" itemvalue="Python.use_hashlib" />
-        <item index="4" class="java.lang.String" itemvalue="Python.check_bmp" />
+        <item index="0" class="java.lang.String" itemvalue="Python.use_urllib" />
+        <item index="1" class="java.lang.String" itemvalue="Python.use_contextlib" />
+        <item index="2" class="java.lang.String" itemvalue="Python.use_chainmap" />
+        <item index="3" class="java.lang.String" itemvalue="Python.use_itertools" />
+        <item index="4" class="java.lang.String" itemvalue="Python.use_hashlib" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +478,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="759" y="12" width="1197" height="1038" extended-state="0" />
+    <frame x="687" y="11" width="1197" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1976251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -510,13 +510,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/oop_advance/special_iter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/oop_advance/special_getitem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -877,9 +870,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6603774">
           <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -887,6 +878,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7075472">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/commonlib/use_urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7169811">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding />
         </state>
       </provider>
