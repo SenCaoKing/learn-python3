@@ -21,41 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="use_datetime.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/commonlib/use_datetime.py">
+      <file leaf-file-name="use_hashlib.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/commonlib/use_hashlib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="use_collections.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/commonlib/use_collections.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="do_base64.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/commonlib/do_base64.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check_bmp.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/samples/commonlib/check_bmp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18867925">
-              <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.4245283">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -76,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/oop_basic/get_type.py" />
         <option value="$PROJECT_DIR$/samples/oop_basic/attrs.py" />
         <option value="$PROJECT_DIR$/samples/oop_basic/get_instance.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/use_slots.py" />
@@ -127,6 +96,7 @@
         <option value="$PROJECT_DIR$/samples/commonlib/use_collections.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/do_base64.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/check_bmp.py" />
+        <option value="$PROJECT_DIR$/samples/commonlib/use_hashlib.py" />
       </list>
     </option>
   </component>
@@ -222,24 +192,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/WWW/mytest/github/learn-python3/samples/oop_basic/get_type.py" />
   </component>
-  <component name="RunManager" selected="Python.check_bmp">
-    <configuration default="false" name="regex" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/regex" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/regex/regex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.use_hashlib">
     <configuration default="false" name="use_datetime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,6 +257,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/check_bmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="use_hashlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/commonlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_hashlib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -449,19 +419,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.mydicts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.regex" />
-      <item index="2" class="java.lang.String" itemvalue="Python.use_datetime" />
-      <item index="3" class="java.lang.String" itemvalue="Python.use_collections" />
-      <item index="4" class="java.lang.String" itemvalue="Python.do_base64" />
-      <item index="5" class="java.lang.String" itemvalue="Python.check_bmp" />
+      <item index="1" class="java.lang.String" itemvalue="Python.use_datetime" />
+      <item index="2" class="java.lang.String" itemvalue="Python.use_collections" />
+      <item index="3" class="java.lang.String" itemvalue="Python.do_base64" />
+      <item index="4" class="java.lang.String" itemvalue="Python.check_bmp" />
+      <item index="5" class="java.lang.String" itemvalue="Python.use_hashlib" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.check_bmp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.do_base64" />
-        <item index="2" class="java.lang.String" itemvalue="Python.use_collections" />
-        <item index="3" class="java.lang.String" itemvalue="Python.use_datetime" />
-        <item index="4" class="java.lang.String" itemvalue="Python.regex" />
+        <item index="0" class="java.lang.String" itemvalue="Python.use_hashlib" />
+        <item index="1" class="java.lang.String" itemvalue="Python.check_bmp" />
+        <item index="2" class="java.lang.String" itemvalue="Python.do_base64" />
+        <item index="3" class="java.lang.String" itemvalue="Python.use_collections" />
+        <item index="4" class="java.lang.String" itemvalue="Python.use_datetime" />
       </list>
     </recent_temporary>
   </component>
@@ -538,13 +508,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/oop_basic/get_instance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24528302">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/oop_advance/use_slots.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -908,7 +871,15 @@
     <entry file="file://$PROJECT_DIR$/samples/commonlib/check_bmp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18867925">
-          <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/commonlib/use_hashlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4245283">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding />
         </state>
       </provider>
