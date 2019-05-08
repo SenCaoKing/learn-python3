@@ -21,12 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="use_sax.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="use_sax.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/commonlib/use_sax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9056604">
-              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="use_htmlparser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/commonlib/use_htmlparser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7641509">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/oop_advance/special_iter.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/special_getitem.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/special_getattr.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/special_call.py" />
@@ -97,6 +108,7 @@
         <option value="$PROJECT_DIR$/samples/commonlib/use_contextlib.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/use_urllib.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/use_sax.py" />
+        <option value="$PROJECT_DIR$/samples/commonlib/use_htmlparser.py" />
       </list>
     </option>
   </component>
@@ -192,24 +204,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/WWW/mytest/github/learn-python3/samples/oop_basic/get_type.py" />
   </component>
-  <component name="RunManager" selected="Python.use_sax">
-    <configuration default="false" name="use_itertools" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/commonlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_itertools.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.use_htmlparser">
     <configuration default="false" name="use_chainmap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,6 +269,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_sax.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="use_htmlparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/commonlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_htmlparser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -419,19 +431,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.mydicts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.use_itertools" />
-      <item index="2" class="java.lang.String" itemvalue="Python.use_chainmap" />
-      <item index="3" class="java.lang.String" itemvalue="Python.use_contextlib" />
-      <item index="4" class="java.lang.String" itemvalue="Python.use_urllib" />
-      <item index="5" class="java.lang.String" itemvalue="Python.use_sax" />
+      <item index="1" class="java.lang.String" itemvalue="Python.use_chainmap" />
+      <item index="2" class="java.lang.String" itemvalue="Python.use_contextlib" />
+      <item index="3" class="java.lang.String" itemvalue="Python.use_urllib" />
+      <item index="4" class="java.lang.String" itemvalue="Python.use_sax" />
+      <item index="5" class="java.lang.String" itemvalue="Python.use_htmlparser" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.use_sax" />
-        <item index="1" class="java.lang.String" itemvalue="Python.use_urllib" />
-        <item index="2" class="java.lang.String" itemvalue="Python.use_contextlib" />
-        <item index="3" class="java.lang.String" itemvalue="Python.use_chainmap" />
-        <item index="4" class="java.lang.String" itemvalue="Python.use_itertools" />
+        <item index="0" class="java.lang.String" itemvalue="Python.use_htmlparser" />
+        <item index="1" class="java.lang.String" itemvalue="Python.use_sax" />
+        <item index="2" class="java.lang.String" itemvalue="Python.use_urllib" />
+        <item index="3" class="java.lang.String" itemvalue="Python.use_contextlib" />
+        <item index="4" class="java.lang.String" itemvalue="Python.use_chainmap" />
       </list>
     </recent_temporary>
   </component>
@@ -505,25 +517,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/samples/commonlib/use_sax.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/oop_advance/special_getattr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/oop_advance/special_call.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28301886">
@@ -871,9 +869,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/commonlib/use_sax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9056604">
-          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/commonlib/use_htmlparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7641509">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
