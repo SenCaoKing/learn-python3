@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d35e052-7d6b-409e-944a-577aa6e6643c" name="Default" comment="" />
+    <list default="true" id="6d35e052-7d6b-409e-944a-577aa6e6643c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="learn-python3.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,23 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="use_sax.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/commonlib/use_sax.py">
+      <file leaf-file-name="use_pillow.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/common_module/use_pillow.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="use_htmlparser.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/samples/commonlib/use_htmlparser.py">
+      <file leaf-file-name="use_pillow2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/common_module/use_pillow2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7641509">
-              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.24528302">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#11#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,9 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/oop_advance/special_getitem.py" />
-        <option value="$PROJECT_DIR$/samples/oop_advance/special_getattr.py" />
-        <option value="$PROJECT_DIR$/samples/oop_advance/special_call.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/use_enum.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/create_class_on_the_fly.py" />
         <option value="$PROJECT_DIR$/samples/oop_advance/use_metaclass.py" />
@@ -109,12 +108,15 @@
         <option value="$PROJECT_DIR$/samples/commonlib/use_urllib.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/use_sax.py" />
         <option value="$PROJECT_DIR$/samples/commonlib/use_htmlparser.py" />
+        <option value="$PROJECT_DIR$/samples/common_module.py" />
+        <option value="$PROJECT_DIR$/samples/common_module/use_pillow.py" />
+        <option value="$PROJECT_DIR$/samples/common_module/use_pillow2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="939" />
-    <option name="y" value="36" />
+    <option name="x" value="803" />
+    <option name="y" value="63" />
     <option name="width" value="1197" />
     <option name="height" value="1038" />
   </component>
@@ -144,7 +146,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,12 +192,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="commonlib" />
+              <option name="myItemId" value="common_module" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,41 +206,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/WWW/mytest/github/learn-python3/samples/oop_basic/get_type.py" />
   </component>
-  <component name="RunManager" selected="Python.use_htmlparser">
-    <configuration default="false" name="use_chainmap" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/commonlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_chainmap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="use_contextlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/commonlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_contextlib.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.use_pillow2">
     <configuration default="false" name="use_urllib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +254,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_htmlparser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="use_pillow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/common_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/common_module/use_pillow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="use_pillow2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/common_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/common_module/use_pillow2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -431,19 +433,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.mydicts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.use_chainmap" />
-      <item index="2" class="java.lang.String" itemvalue="Python.use_contextlib" />
-      <item index="3" class="java.lang.String" itemvalue="Python.use_urllib" />
-      <item index="4" class="java.lang.String" itemvalue="Python.use_sax" />
-      <item index="5" class="java.lang.String" itemvalue="Python.use_htmlparser" />
+      <item index="1" class="java.lang.String" itemvalue="Python.use_urllib" />
+      <item index="2" class="java.lang.String" itemvalue="Python.use_sax" />
+      <item index="3" class="java.lang.String" itemvalue="Python.use_htmlparser" />
+      <item index="4" class="java.lang.String" itemvalue="Python.use_pillow" />
+      <item index="5" class="java.lang.String" itemvalue="Python.use_pillow2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.use_htmlparser" />
-        <item index="1" class="java.lang.String" itemvalue="Python.use_sax" />
-        <item index="2" class="java.lang.String" itemvalue="Python.use_urllib" />
-        <item index="3" class="java.lang.String" itemvalue="Python.use_contextlib" />
-        <item index="4" class="java.lang.String" itemvalue="Python.use_chainmap" />
+        <item index="0" class="java.lang.String" itemvalue="Python.use_pillow2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.use_pillow" />
+        <item index="2" class="java.lang.String" itemvalue="Python.use_htmlparser" />
+        <item index="3" class="java.lang.String" itemvalue="Python.use_sax" />
+        <item index="4" class="java.lang.String" itemvalue="Python.use_urllib" />
       </list>
     </recent_temporary>
   </component>
@@ -490,10 +492,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="939" y="36" width="1197" height="1038" extended-state="0" />
-    <editor active="true" />
+    <frame x="803" y="63" width="1197" height="1038" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1976251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1976251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -522,20 +524,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/oop_advance/special_call.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28301886">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/oop_advance/use_enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29245284">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/oop_advance/create_class_on_the_fly.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -863,24 +851,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23207547">
           <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/commonlib/use_sax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/commonlib/use_htmlparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7641509">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.812142">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/commonlib/use_sax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54180986">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/common_module/use_pillow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/common_module/use_pillow2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24528302">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#11#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
