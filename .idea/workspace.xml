@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d35e052-7d6b-409e-944a-577aa6e6643c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/common_module/use_psutil.py" afterPath="$PROJECT_DIR$/samples/common_module/use_psutil.py" />
-    </list>
+    <list default="true" id="6d35e052-7d6b-409e-944a-577aa6e6643c" name="Default" comment="" />
     <ignored path="learn-python3.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,22 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="use_requests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/common_module/use_requests.py">
+      <file leaf-file-name="hello_gui2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/gui/hello_gui2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="use_psutil.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/samples/common_module/use_psutil.py">
+      <file leaf-file-name="hello_gui.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/gui/hello_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69758064">
-              <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="0.8991935">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/oop_advance/orm.py" />
         <option value="$PROJECT_DIR$/samples/debug/do_try.py" />
         <option value="$PROJECT_DIR$/samples/debug/err.py" />
         <option value="$PROJECT_DIR$/samples/debug/err_logging.py" />
@@ -110,11 +108,13 @@
         <option value="$PROJECT_DIR$/samples/common_module/use_requests.py" />
         <option value="$PROJECT_DIR$/gitattributes" />
         <option value="$PROJECT_DIR$/samples/common_module/use_psutil.py" />
+        <option value="$PROJECT_DIR$/samples/gui/hello_gui.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="923" />
+    <option name="x" value="956" />
+    <option name="y" value="14" />
     <option name="width" value="994" />
     <option name="height" value="1005" />
   </component>
@@ -189,7 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common_module" />
+              <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -204,58 +204,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/WWW/mytest/github/learn-python3/samples/oop_basic/get_type.py" />
   </component>
-  <component name="RunManager" selected="Python.use_psutil">
-    <configuration default="false" name="use_htmlparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/commonlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/commonlib/use_htmlparser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="use_pillow" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/common_module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/common_module/use_pillow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="use_pillow2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/common_module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/common_module/use_pillow2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.hello_gui (1)">
     <configuration default="false" name="use_requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +235,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/common_module/use_psutil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hello_gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="E:\WWW\mytest\github\learn-python3\samples\gui\hello_gui2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hello_gui2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/gui/hello_gui2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hello_gui (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/gui/hello_gui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -431,19 +431,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.mydicts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.use_htmlparser" />
-      <item index="2" class="java.lang.String" itemvalue="Python.use_pillow" />
-      <item index="3" class="java.lang.String" itemvalue="Python.use_pillow2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.use_requests" />
-      <item index="5" class="java.lang.String" itemvalue="Python.use_psutil" />
+      <item index="1" class="java.lang.String" itemvalue="Python.use_requests" />
+      <item index="2" class="java.lang.String" itemvalue="Python.use_psutil" />
+      <item index="3" class="java.lang.String" itemvalue="Python.hello_gui" />
+      <item index="4" class="java.lang.String" itemvalue="Python.hello_gui2" />
+      <item index="5" class="java.lang.String" itemvalue="Python.hello_gui (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.use_psutil" />
-        <item index="1" class="java.lang.String" itemvalue="Python.use_requests" />
-        <item index="2" class="java.lang.String" itemvalue="Python.use_pillow2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.use_pillow" />
-        <item index="4" class="java.lang.String" itemvalue="Python.use_htmlparser" />
+        <item index="0" class="java.lang.String" itemvalue="Python.hello_gui (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.hello_gui2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.hello_gui" />
+        <item index="3" class="java.lang.String" itemvalue="Python.use_psutil" />
+        <item index="4" class="java.lang.String" itemvalue="Python.use_requests" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +490,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="923" y="0" width="994" height="1005" extended-state="0" />
+    <frame x="956" y="14" width="994" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2387295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -522,13 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/debug/err.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/debug/err_logging.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -860,19 +853,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/common_module/use_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/common_module/use_psutil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69758064">
           <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/common_module/use_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15120968">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/gui/hello_gui2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/gui/hello_gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8991935">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
