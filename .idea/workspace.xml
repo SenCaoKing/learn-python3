@@ -21,11 +21,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="do_tcp.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="do_tcp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samples/socket/do_tcp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3951613">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tcp_server.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/socket/tcp_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.29435483">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tcp_client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/socket/tcp_client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -46,8 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/samples/debug/err_reraise.py" />
-        <option value="$PROJECT_DIR$/samples/debug/do_assert.py" />
         <option value="$PROJECT_DIR$/samples/debug/do_logging.py" />
         <option value="$PROJECT_DIR$/samples/debug/do_pdb.py" />
         <option value="$PROJECT_DIR$/samples/debug/mydict.py" />
@@ -97,12 +117,14 @@
         <option value="$PROJECT_DIR$/samples/gui/turtle/stars.py" />
         <option value="$PROJECT_DIR$/samples/gui/turtle/tree.py" />
         <option value="$PROJECT_DIR$/samples/socket/do_tcp.py" />
+        <option value="$PROJECT_DIR$/samples/socket/tcp_client.py" />
+        <option value="$PROJECT_DIR$/samples/socket/tcp_server.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1094" />
-    <option name="y" value="19" />
+    <option name="x" value="1007" />
+    <option name="y" value="31" />
     <option name="width" value="994" />
     <option name="height" value="1005" />
   </component>
@@ -192,41 +214,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/WWW/mytest/github/learn-python3/samples/oop_basic/get_type.py" />
   </component>
-  <component name="RunManager" selected="Python.do_tcp">
-    <configuration default="false" name="hello_gui (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/gui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/gui/hello_gui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="rect" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/gui/turtle" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learn-python3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/gui/turtle/rect.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.tcp_client">
     <configuration default="false" name="stars" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,6 +262,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="learn-python3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/socket/do_tcp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tcp_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/socket" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/socket/tcp_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tcp_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/socket" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="learn-python3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/socket/tcp_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -419,19 +441,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.mydicts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.hello_gui (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.rect" />
-      <item index="3" class="java.lang.String" itemvalue="Python.stars" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tree" />
-      <item index="5" class="java.lang.String" itemvalue="Python.do_tcp" />
+      <item index="1" class="java.lang.String" itemvalue="Python.stars" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tree" />
+      <item index="3" class="java.lang.String" itemvalue="Python.do_tcp" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tcp_server" />
+      <item index="5" class="java.lang.String" itemvalue="Python.tcp_client" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.do_tcp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tree" />
-        <item index="2" class="java.lang.String" itemvalue="Python.stars" />
-        <item index="3" class="java.lang.String" itemvalue="Python.rect" />
-        <item index="4" class="java.lang.String" itemvalue="Python.hello_gui (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tcp_client" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tcp_server" />
+        <item index="2" class="java.lang.String" itemvalue="Python.do_tcp" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tree" />
+        <item index="4" class="java.lang.String" itemvalue="Python.stars" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +500,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1094" y="19" width="994" height="1005" extended-state="0" />
+    <frame x="1007" y="31" width="994" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2387295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -510,20 +532,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/debug/do_logging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/debug/do_pdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3773585">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/debug/mydict_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1792452">
@@ -866,9 +874,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/socket/do_tcp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3951613">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/socket/tcp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/socket/tcp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29435483">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
