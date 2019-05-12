@@ -48,7 +48,7 @@ def print_info(msg, indent=0):
                     value = u'%s <%s>' % (name, addr)
             print('%s%s: %s' % ('  ' * indent, header, value))
     # 如果消息由多个部分组成，则返回True
-    if msg.is_multipart():
+    if (msg.is_multipart()):
         # 返回list，包含所有的子对象
         parts = msg.get_payload()
         # enumerate将其组成一个索引序列，利用它可以同时获得索引和值
@@ -73,9 +73,9 @@ def print_info(msg, indent=0):
                 # 解密
                 content = content.decode(charset)
             # 打印内容
-            print('%s Text: %s' % ('  ' * indent, content + '...'))
+            print('%sText: %s' % ('  ' * indent, content + '...'))
         else:
-            print('%s Attachment: %s' % ('  ' * indent, content_type))
+            print('%sAttachment: %s' % ('  ' * indent, content_type))
 
 # 输入邮件地址，口令和POP3服务器地址：
 email = '1134349927@qq.com'
