@@ -7,10 +7,10 @@ import aiomysql
 def log(sql, args=()):
     logging.info('SQL: %s' % sql)
 
-def create_pool(loop, **kw):
+async def create_pool(loop, **kw):
     logging.info('create database connection pool...')
     global __pool
-    __pool = yield from aiomysql.create_pool(
+    __pool = await aiomysql.create_pool(
         host=kw.get('host', 'localhost'),
         port=kw.get('port', 3306),
         user=kw['user'],
@@ -23,7 +23,7 @@ def create_pool(loop, **kw):
         loop=loop
     )
 
-def select(sql, args, size=None):
+async def select(sql, args, size=None):
     log(sql, args)
     global __pool
     async with __pool.get() as conn:
@@ -53,17 +53,32 @@ async def execute(sql, args, autocommit=True):
             raise
         return affected
 
-from orm import Model, StringField, IntegerField
+class ModelMetaclass(type):
+    pass
 
-class User(Model):
-    __table__='users'
+class Model(dict, metaclass=ModelMetaclass):
 
-    id = IntegerField(primary_key=True)
-    name = StringField()
+    def __init__(self, **kw):
+        super(Model, self).__init__(**kw)
 
-# 创建实例：
-user = User(id=123, name='Sen')
-# 存入数据库：
-user.insert()
-# 查询所有User对象：
-users = User.findAll()
+    def __getattr__(self, key):
+        try:
+            return self[key]
+        except KeyError:
+            raise AttributeError(r"'Model' object has no attribute '%s'" % key)
+
+    def __setattr__(self, key, value):
+        self[key] = value
+
+    def getValue(self, key):
+        return getattr(self, key, None)
+
+    def getValueOrDefault(self, key):
+        value = getattr(self, key, None)
+        if value is None:
+            field = self.__mappings__[key]
+            if field.default is not None:
+                value = field.default() if callable(field.default) else field.default
+                logging.debug('using default value for %s: %s' % (key, str(value)))
+                setattr(self, key, value)
+        return value
