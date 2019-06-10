@@ -89,7 +89,11 @@ class TextField(Field):
         super().__init__(name, 'text', False, default)
 
 class ModelMetaclass(type):
-    pass
+
+    def __new__(cls, name, bases, attrs):
+        if name=='Model':
+            return type.__new__(cls, name, bases, attrs)
+        
 
 class Model(dict, metaclass=ModelMetaclass):
 
